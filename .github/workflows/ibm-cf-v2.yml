@@ -52,7 +52,7 @@ jobs:
 
     - name: Download Latest V2Ray
       run: |
-        DOWNLOAD_URL="https://github.com/v2fly/v2ray-core/releases/download/v5.1.0/v2ray-linux-64.zip"
+        DOWNLOAD_URL="https://github.com/v2fly/v2ray-core/releases/download/v4.45.2/v2ray-linux-64.zip"
         curl -fsSL "$DOWNLOAD_URL" -o "v2ray-linux-64.zip"
         unzip v2ray-linux-64.zip v2ray v2ctl geoip.dat geosite.dat
         rm v2ray-linux-64.zip
